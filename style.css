@@ -58,21 +58,53 @@ div {
 }
 
 .settings {
+  display: grid;
+  grid-template-columns: repeat(3, 40px)
+  1fr;
   background-color: green;
 }
 
 .settings-btn,
-.search-logo {
+.search-logo, .icon1 {
   background-color: orange;
 }
 
 .logo,
-.search-title {
+.search-title, .icon2 {
   background-color: purple;
 }
 
 .title,
-.search-dropdown {
+.search-dropdown, .icon3{
+  background-color: yellow;
+}
+.profile-box{
+  background-color: blue;
+
+}
+.compose-btn{
+  display: grid;
+  width: 60%;
+  grid-template-columns: 50px 1fr;
+  border-radius: 10px;
+  background-color: aqua;
+}
+.side-bar{
+  display: grid;
+  background-color: blue;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.side-menu{
+  display: grid;
+  background-color: rgb(255, 0, 68);
+  
+}
+.meeting{
+  display: grid;
+  background-color: green;
+}
+.chatting{
+  display: grid;
   background-color: yellow;
 }
 
