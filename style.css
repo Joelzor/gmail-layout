@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+div {
+  font-size: 15px;
+}
+
 .container {
   height: 100vh;
   gap: 10px;
@@ -15,6 +19,10 @@
 .top-menu {
   grid-area: top-menu;
   background-color: white;
+
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 200px 1fr 300px;
 }
 
 .compose-box {
@@ -35,6 +43,37 @@
 .icon {
   grid-area: icon;
   background-color: papayawhip;
+}
+
+.logo-box {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 40px 60px 1fr;
+}
+
+.search-bar {
+  background-color: red;
+  display: grid;
+  grid-template-columns: 50px 1fr 40px;
+}
+
+.settings {
+  background-color: green;
+}
+
+.settings-btn,
+.search-logo {
+  background-color: orange;
+}
+
+.logo,
+.search-title {
+  background-color: purple;
+}
+
+.title,
+.search-dropdown {
+  background-color: yellow;
 }
 
 @media screen and (max-width: 1024px) {
